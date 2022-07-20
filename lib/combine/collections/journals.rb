@@ -4,7 +4,7 @@ module Combine
   module Collections
     # Manage journals collection
     class Journals
-      require_relative 'helpers'
+      require_relative '../helpers'
       include Combine::Helpers
 
       def initialize(journals_info)

@@ -4,7 +4,7 @@ module Combine
   module Collections
     # Returns an array of hashes (each one represents an article)
     class Articles
-      require_relative 'helpers'
+      require_relative '../helpers'
       include Combine::Helpers
 
       def initialize(articles_info)

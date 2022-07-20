@@ -61,7 +61,7 @@ bundle
 
 For running the entire test suite:
 ```
-rspec spec
+bundle exec rspec spec
 ```
 
 ## Installing Ruby

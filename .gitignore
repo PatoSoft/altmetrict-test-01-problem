@@ -83,3 +83,6 @@ build-iPhoneSimulator/
 *.jar
 xerial*.*
 .tool-versions
+
+# temp files
+.~*

@@ -1,0 +1,37 @@
+[
+  {
+    "author": "Amari Lubowitz",
+    "doi": "10.1234/altmetric0",
+    "issn": "1337-8688",
+    "journal": "Shanahan, Green and Ziemann",
+    "title": "Small Wooden Chair"
+  },
+  {
+    "author": "Lenny Kshlerin",
+    "doi": "10.1234/altmetric100",
+    "issn": "2542-5856",
+    "journal": "Wilkinson, Gaylord and Gerlach",
+    "title": "Ergonomic Rubber Shirt"
+  },
+  {
+    "author": "Howard Spinka Jr.",
+    "doi": "10.1234/altmetric103",
+    "issn": "3775-0307",
+    "journal": "Hahn and Sons",
+    "title": "Fantastic Granite Computer"
+  },
+  {
+    "author": "Ms. Emilio Grady",
+    "doi": "10.1234/altmetric118",
+    "issn": "6817-8437",
+    "journal": "Corkery-Jast",
+    "title": "Gorgeous Cotton Chair"
+  },
+  {
+    "author": "Aracely Schneider",
+    "doi": "10.1234/altmetric119",
+    "issn": "8447-5341",
+    "journal": "Smith, Boehm and Haley",
+    "title": "Awesome Wooden Shoes"
+  }
+]
