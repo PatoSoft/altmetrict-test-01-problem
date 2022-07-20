@@ -46,7 +46,7 @@ $ ruby combine.rb --format csv journals.csv articles.csv authors.json > full_art
 ```
 
 # Assumptions
-- I assumed we want to enrich the articles provided by articles.csv with the author name and the journal title and we don't want to ouput journal or author data that is not related to any article.
+- I assumed we want to enrich the articles provided by ```articles.csv``` with the author name and the journal title and we don't want to ouput journal or author data that is not related to any article.
 - Only one author per doi. It is easy to change if we need to support multiple authors (using an array and joining them in the representation).
 
 # Future improvements (out of scope)
@@ -54,6 +54,8 @@ $ ruby combine.rb --format csv journals.csv articles.csv authors.json > full_art
 - Create a factory pattern desing for the parsers and for the representers.
 
 # Running the tests
+- ```spec/presenter_spec.rb``` serves as integration test for the complete project, all other files have their own unit tests.
+
 Installing dependencies (only the first time):
 ```
 bundle
@@ -63,6 +65,10 @@ For running the entire test suite:
 ```
 bundle exec rspec spec
 ```
+
+# Missing tests
+- There are missing tests for the parsers (out of time).
+- Would be good to create tests for the CLI (```ruby combine.rb``` command)
 
 ## Installing Ruby
 
